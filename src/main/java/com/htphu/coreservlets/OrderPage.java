@@ -42,8 +42,8 @@ public class OrderPage extends HttpServlet {
 		String docType = "<!DOCTYPE HTML>\n";
 		out.println(docType + "<HTML>\n" + "<HEAD>" + "<meta charset=\"UTF-8\">" + "<TITLE>" + title + "</TITLE>"
 				+ "<link rel=\"icon\" type=\"image/x-icon\" href=\"./assets/img/favicon.ico\">"
-				+ "<link rel=\"stylesheet\" href=\"./assets/css/header.css\" />" + "<link rel=\"stylesheet\"\r\n"
-				+ "	href=\"./assets/fonts/fontawesome-free-6.5.2-web/css/all.min.css\">"
+				+ "<link rel=\"stylesheet\" href=\"./assets/css/header.css\" />"
+				+ "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css\" integrity=\"sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />"
 				+ "<link rel=\"stylesheet\" href=\"./assets/css/order.css\" />"
 				+ "<script src=\"./assets/script/order.js\"></script>" + "</HEAD>\n"
 				+ "<BODY>\n<div class=\"header\">\r\n<h1 class=\"heading-section\" style=\"margin:0;padding:0;\">"
